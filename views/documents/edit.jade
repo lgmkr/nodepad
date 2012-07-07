@@ -1,0 +1,4 @@
+h2 Edit Document
+form(method='post', action='/documents/' + d.id)
+  input(name='id', value=d.id, type='hidden')
+  !=partial('documents/fields', { locals: { d: d } })

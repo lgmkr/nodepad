@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+div#action_buttons {
+  float:left;
+}
+
+div#action_buttons a{
+  padding: 5px;
+}
+

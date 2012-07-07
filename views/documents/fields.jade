@@ -1,0 +1,9 @@
+div
+  label Title:
+    input(name='document[title]', value=d.title || '')
+div
+  label Note:
+    textarea(name='document[tags]')
+      =d.tags || ''
+div
+  input(type='submit', value='Save')
